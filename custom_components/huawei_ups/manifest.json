@@ -5,6 +5,8 @@
   "config_flow": true,
   "requirements": ["pymodbus>=3.6.0"],
   "dependencies": [],
+  "documentation": "https://github.com/magicbear/huawei_ups_hacs",
+  "issue_tracker": "https://github.com/magicbear/huawei_ups_hacs/issues",
   "codeowners": ["@magicbear"],
   "iot_class": "local_polling"
 }
