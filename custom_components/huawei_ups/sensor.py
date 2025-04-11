@@ -88,6 +88,7 @@ class HuaweiUPSSensor(CoordinatorEntity, SensorEntity):
     def __init__(self, coordinator, name, key, unit, device_class):
         super().__init__(coordinator, key)
         self._attr_device_info = coordinator.device_info
+        self._attr_name = key
         self.entity_description = SensorEntityDescription(
             key=key,
             name=name,
